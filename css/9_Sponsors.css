@@ -1,0 +1,58 @@
+.Sponsors {
+  background: white;
+  color: black;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sponsor_heading {
+  font-weight: 500;
+  font-size: 3.33vw;
+  text-align: center;
+  font-family: Rubik;
+  padding-top: 2rem;
+}
+
+.sponsor_logo {
+  width: 30%;
+  height: 22%;
+  margin-top: 1vw;
+  padding: 2%;
+}
+
+.cp_logo_div{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+  .Sponsors {
+    height: 100%;
+  }
+  .sponsor_heading {
+    font-size: 8vw;
+    z-index: 100;
+    margin-bottom: 10%;
+  }
+  .sponsor_logo {
+    width: 50%;
+    height: 22%;
+    margin: auto 20%;
+    margin-bottom: 6rem;
+    padding-top: 2rem;
+  }
+  .cp_logo_div {
+    display: flex;
+    flex-direction: column;
+}
+  /* #devfolio, #replit{
+    width: 10%;
+  } */
+}
+/* #devfolio, s #replit{
+  width: 50%;
+
+} */

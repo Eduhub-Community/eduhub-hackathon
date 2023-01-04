@@ -6,6 +6,11 @@ body {
 		font-weight: 400;
 }
 
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 h1,h2,h3,h4,h5,h6{
   font-weight: 600;
 }
@@ -381,7 +386,7 @@ footer {
 }
 
 #sponsors {
-  padding-top: 150px;
+  padding-top: 100px;
   padding-bottom: 150px;
 }
 
@@ -395,21 +400,6 @@ footer {
 
 #sponsors p {
 	color: #222222;
-}
-
-#venue {
-    background: url('../images/map3.png') 50% 0 repeat-y fixed;
-    background-size: cover;
-    background-position: center center;
-    padding-top: 150px;
-    padding-bottom: 150px;
-}
-
-#venue h2 {
-	color: #fff;
-  font-size: 40px;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 
 #detail {
@@ -610,7 +600,8 @@ footer {
     padding-bottom: 32px;
   }
 
-  #sponsors img {
+  #gfg{
+    margin-left: 30%;
   }
 }
 
@@ -628,3 +619,13 @@ footer {
 		font-size: 35px;
 	}
 }
+
+/* #platinum-sponser h2{
+  font-size: 20px; 
+  margin-top: 6%; 
+  margin-bottom: 0%;
+}
+
+#gfg{
+  margin-left: 25%;
+} */
